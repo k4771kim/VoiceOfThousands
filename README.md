@@ -19,7 +19,7 @@ This application is for a audio book production project that uses your voice.Let
 
 ### Develop by 김보균, 조은비
 
-#####'Voice Of Thousands(VOT)' The  android application(2015. 07)
+'Voice Of Thousands(VOT)' The  android application(2015. 07)
 
 
   [1]: https://play.google.com/store/apps/details?id=gyun.bo.voice_of_thousands_1&hl=ko
