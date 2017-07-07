@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+
+        <!-- <bitmap android:src="@drawable/mp_max" /> -->
+
+             <shape>
+            <corners android:radius="7dip" />
+
+            <gradient
+                android:endColor="#e0f7fa"
+                android:startColor="#e0f7fa" />
+             </shape>
+
+    </item>
+    <!--
+    <item android:id="@android:id/secondaryProgress">
+        <bitmap android:src="@drawable/"/>
+    </item>
+    -->
+    
+    <item android:id="@android:id/progress">
+        <clip>
+             <shape>
+            <corners android:radius="7dip" />
+
+            <gradient
+                android:endColor="#2196f3"
+                android:startColor="#2196f3" />
+             </shape>
+        </clip>
+        <!-- <nine-patch android:src="@drawable/mplong"/> -->
+
+    </item>
+
+</layer-list>

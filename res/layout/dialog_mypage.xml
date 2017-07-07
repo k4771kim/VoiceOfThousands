@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<!--     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3" > -->
+
+     <!-- 
+    </RelativeLayout>
+   <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:layout_weight="1" /> -->
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="118dp"
+            android:background="@drawable/editnick" >
+
+            <EditText
+             
+                android:id="@+id/nick_edit"
+                android:layout_width="150dp"
+                android:layout_height="43dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="9dp"
+                android:layout_marginLeft="6dp"
+                android:background="#ffffff"
+                android:hint="닉네임 입력"
+              android:singleLine="true"
+                android:paddingLeft="7dp"
+                android:textColor="#000000"
+              
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/nick_commit"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_alignBaseline="@+id/nick_edit"
+                android:layout_alignBottom="@+id/nick_edit"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/nick_edit"
+                android:background="#42A5F5"
+                android:text="확인"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+</RelativeLayout>

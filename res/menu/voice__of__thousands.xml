@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.voice_of_thousands_1.Voice_Of_Thousands" >
+
+    <item
+        android:id="@+id/Listen_mode"
+        android:icon="@drawable/listen_mode"
+        android:orderInCategory="100"
+        android:title="@string/Listen_Mode"
+        app:showAsAction="always"/>
+
+</menu>

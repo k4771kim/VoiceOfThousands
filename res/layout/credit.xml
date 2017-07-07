@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#90CAF9"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/credit_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90CAF9"
+            android:text="제작 동기"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/credit_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90CAF9"
+            android:text="제작자"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+
+            android:background="@drawable/textview_rounded2"
+            android:scrollbars="none" >
+
+            <TextView
+                android:id="@+id/credittext1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="25dp"
+                android:lineSpacingExtra="15dp"
+                android:text="저희 앱을 다운받아주셔서 진심으로 감사드립니다. \n천개의 목소리는 불특정 다수의 목소리를 한데 모아 한 권의 음성북을 제작하기 위해  만들어진 앱입니다.\n제작된 음성북은 감상하기 페이지에서  들어보실 수 있으며,음성북을 효율적으로 활용할수 있는 단체에 기부할 예정입니다. \n여러분들의 목소리를 들려주세요!!\n"
+                android:textColor="#bb000000"
+                android:textSize="15sp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/credittext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:background="@drawable/textview_rounded2"
+            android:padding="30dp"
+            android:text="기획, 디자인, 안드로이드 개발 \n김보균 \n\n\n\n디자인, 서버개발, PPT, 동영상 작성\n에이스 조은비"
+            android:textColor="#bb000000" /> 
+    </RelativeLayout>
+
+</LinearLayout>
