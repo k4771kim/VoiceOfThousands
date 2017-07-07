@@ -21,7 +21,7 @@ This application is for a audio book production project that uses your voice.Let
  - Backend Server, PPT : 조은비
 
 
-> **소감**
+> ** 블라블라 **
 >
 > 첫 안드로이드 프로젝트인 만큼 의미있는 프로젝트. <br />
 > T 아카데미에서 안드로이드 개발, 서버 개발, 디자이너 3인 협업으로 프로젝트를 완성하는 교육 프로그램에 참여하여 제작을 시작. <br />
